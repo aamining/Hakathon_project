@@ -32,3 +32,5 @@ PUBLISHABLE_KEY: "pk_test_zJWuFSymuSooT4kvpiseF7zJ"
 SECRET_KEY: "sk_test_4YzPw8C6g6Bpidz7sQQkLb"
 
 ```
+
+somthings new comming soon
