@@ -4,7 +4,7 @@
 <% @products.each do |product| %>
 <div class="container">
   <div class="flex-block">
-    <%=image_tag(product.image_url, class: "img-responsive")%>
+    <%=cloudinary_image_tag(product.image_url, class: "img-responsive")%>
 
     <%= link_to '🏞 ', product_path(product.id) %>
   </div>
