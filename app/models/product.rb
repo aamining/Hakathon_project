@@ -1,3 +1,3 @@
 class Product < ApplicationRecord
-  Cloudinary: :mount_uploader :image, ProductImageUploader
+mount_uploader :image, ProductImageUploader
 end
