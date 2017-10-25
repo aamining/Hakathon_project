@@ -35,4 +35,15 @@ SECRET_KEY: "sk_test_4YzPw8C6g6Bpidz7sQQkLb"
 
 ```
 
-somethings new comming soon.
+#Deploying to Heroku
+
+```
+git init
+git add .
+git commit -m 'My simple Stripe application'
+heroku create
+heroku config:set PUBLISHABLE_KEY=pk_test_zJWuFSymuSooT4kvpiseF7zJ SECRET_KEY=sk_test_4YzPw8C6g6Bpidz7sQQkLbCt
+git push heroku master
+heroku open
+
+```
