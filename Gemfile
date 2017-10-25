@@ -15,6 +15,8 @@ gem 'carrierwave', '~> 1.0'
 
 gem 'figaro'
 
+gem 'cloudinary'
+
 gem 'stripe'
 gem 'cloudinary'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
