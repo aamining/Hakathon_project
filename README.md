@@ -2,13 +2,13 @@
 
 This is a simple Art Gallery app. Able to put art pictures and sell them.
 
-# Buyer would be able to pay oline
+# Buyer would be able to pay online
 
 # PAYMENTS
 
 1- First for payment system need to follow this web site link.. It would be necessary to follow instruction and create
 
-"Cherges" controller and "Charges" view.
+"Charges" controller and "Charges" view.
 
 ```
 https://stripe.com/docs/checkout/rails
@@ -28,14 +28,23 @@ gem "figaro"
 bundle exec figaro install
 
 ```
+4- in the Terminal we have to type this two lines first:
 
-4- then we should have "application.yml" file in config folder or
+```
+export PUBLISHABLE_KEY="pk_test_zJWuFSymuSooT4kvpiseF7zJ"
 
-in directory
+and then...
+
+export SECRET_KEY="sk_test_4YzPw8C6g6Bpidz7sQQkLbCt"
+
+```
+5- then we should have "application.yml" file in config folder or
+
+in directory.
 
 note: it maybe hidden so find it by 'ls' from terminal and add
 
-inside
+inside it:
 
 ```
 PUBLISHABLE_KEY: "pk_test_zJWuFSymuSooT4kvpiseF7zJ"
