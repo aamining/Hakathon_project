@@ -1,3 +1,9 @@
+# Scope of work:
+
+This is a simple Art Gallery app. Able to put art pictures and sell them.
+
+# Buyer would be able to pay oline
+
 # PAYMENTS
 
 1- First for payment system need to follow this web site link
@@ -35,7 +41,7 @@ SECRET_KEY: "sk_test_4YzPw8C6g6Bpidz7sQQkLb"
 
 ```
 
-#Deploying to Heroku
+# Deploying to Heroku
 
 ```
 git init
