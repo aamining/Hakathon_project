@@ -6,7 +6,9 @@ This is a simple Art Gallery app. Able to put art pictures and sell them.
 
 # PAYMENTS
 
-1- First for payment system need to follow this web site link
+1- First for payment system need to follow this web site link.. It would be necessary to follow instruction and create
+
+"Cherges" controller and "Charges" view.
 
 ```
 https://stripe.com/docs/checkout/rails
