@@ -21,9 +21,11 @@ bundle exec figaro install
 
 ```
 
-4- then we should have "application.yml" file in config folder
+4- then we should have "application.yml" file in config folder or
 
-note: it maybe hidden so find it by ls from terminal and add
+in directory
+
+note: it maybe hidden so find it by 'ls' from terminal and add
 
 inside
 
@@ -33,4 +35,4 @@ SECRET_KEY: "sk_test_4YzPw8C6g6Bpidz7sQQkLb"
 
 ```
 
-somthings new comming soon
+somethings new comming soon

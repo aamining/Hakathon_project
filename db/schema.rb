@@ -10,43 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171019225502) do
-
-  create_table "customers", force: :cascade do |t|
-    t.string "name"
-    t.string "email"
-    t.string "login"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "order_groups", force: :cascade do |t|
-    t.datetime "order_date"
-    t.integer "user_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["user_id"], name: "index_order_groups_on_user_id"
-  end
-
-  create_table "orders", force: :cascade do |t|
-    t.datetime "order_date"
-    t.integer "product_id"
-    t.integer "ordergroup_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["ordergroup_id"], name: "index_orders_on_ordergroup_id"
-    t.index ["product_id"], name: "index_orders_on_product_id"
-  end
-
-  create_table "payments", force: :cascade do |t|
-    t.datetime "payment_date"
-    t.text "description"
-    t.float "total_amount"
-    t.integer "order_group_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["order_group_id"], name: "index_payments_on_order_group_id"
-  end
+ActiveRecord::Schema.define(version: 20171019084148) do
 
   create_table "products", force: :cascade do |t|
     t.text "description"
