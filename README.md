@@ -35,4 +35,4 @@ SECRET_KEY: "sk_test_4YzPw8C6g6Bpidz7sQQkLb"
 
 ```
 
-somethings new comming soon
+somethings new comming soon.
