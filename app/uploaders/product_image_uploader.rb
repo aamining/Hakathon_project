@@ -6,6 +6,7 @@ class ProductImageUploader < CarrierWave::Uploader::Base
 
   # Choose what kind of storage to use for this uploader:
   include Cloudinary::CarrierWave
+  
 
     version :standard do
       process :resize_to_fill => [100, 150, :north]
