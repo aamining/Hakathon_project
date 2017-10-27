@@ -67,13 +67,20 @@ heroku open
 
 # How to Upload and Work with images in Heroku
 
-Heroku dose not keep images so wee need to third party solution,
+Heroku dose not keep images so we need to third party solution,
 
-this time 'Cloudinary'
+This time 'Cloudinary'
 
 Cloudinary is a cloud-based service that provides an end-to-end image management solution, including upload, storage, administration, manipulation, optimization and delivery.
 
 How to do this?
+
+first:
+
+```
+gem 'cloudinary'
+
+```
 
 Uploads:
 
@@ -81,7 +88,12 @@ Uploads:
 
 2- download or create 'cloudinary.yml' file and store it in app
 
-directory.
+directory. This file would be ready and easily downloadable from following link. including all API cloudinary links.
+
+```
+https://cloudinary.com/console/cloudinary.yml
+
+```
 
 3- we have to put this in Image uploader file in Uploader folder.
 
@@ -97,3 +109,5 @@ include Cloudinary::CarrierWave
   end
 
 ```
+
+4- now have a look at Cloudinay dashboard. picture should be there.
