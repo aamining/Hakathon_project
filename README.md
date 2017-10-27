@@ -86,7 +86,7 @@ Uploads:
 
 1- we have to create an account in cloudinary
 
-2- download or create 'cloudinary.yml' file and store it in app
+2- download or create 'cloudinary.yml' file and store it in config and app
 
 directory. This file would be ready and easily downloadable from following link. including all API cloudinary links.
 
