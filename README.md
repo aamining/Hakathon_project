@@ -65,7 +65,7 @@ heroku open
 
 ```
 
-# How to Upload and Work with images in Heroku
+# How to Upload and Work with images in Heroku (Cloudinary)
 
 Heroku dose not keep images so we need to third party solution,
 
@@ -80,6 +80,7 @@ first:
 ```
 gem 'cloudinary'
 
+And make sure this is locating after gem 'carrierwave'
 ```
 
 Uploads:
